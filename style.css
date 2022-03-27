@@ -1,0 +1,142 @@
+.Music_type
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 80px;
+
+}
+
+.Tenor
+{
+    margin-right: 60px;
+    border: black 1px solid ;
+    padding-top: 5px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.Bass
+{
+    margin-right: 60px;
+    border: black 1px solid ;
+    padding-top: 5px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.Valve
+{
+    margin-right: 60px;
+    border: black 1px solid ;
+    padding-top: 5px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.select-btn
+{
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+   
+
+}
+#nav-bar a 
+{
+        float: left;
+        padding: 14px 16px;
+        text-decoration: none;    
+}
+a:hover
+{
+color: white;
+background-color: blue;
+}
+
+
+#header-img
+{
+    width: 220px;
+    height: 35px;
+}
+#video
+{
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+.font-icons
+{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+#search
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#submit
+{
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+input
+{
+    background-color: white;
+    font-size: 24px;
+}
+.premium
+{
+    color: chocolate;
+    margin-left: 150px;
+    padding-top:20px;
+    padding-right: 50px;
+    height: 40px;
+    width: 50px;
+}
+.shipping
+{
+    color: chocolate;
+    margin-left: 150px;
+    padding-top:20px;
+    padding-right: 50px;
+    height: 40px;
+    width: 50px;
+}
+.assurance
+{
+    color: chocolate;
+    margin-left: 150px;
+    padding-top:20px;
+    padding-right: 50px;
+    height: 40px;
+    width: 50px;
+}
+#image
+{
+    margin-right: 650px;
+}
+.musics
+{
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+#features
+{
+    margin-top: 80px;
+}
